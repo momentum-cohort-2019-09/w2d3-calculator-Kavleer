@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+/* .calculator{
+    background-color: red;
+    border-width: 2px;
+    margin:0;
+    padding:0;
+    height: 500px;
+    display:flex;
+
+   } */
+button{
+    width:100px;
+    height:100px;
+    padding:0;
+    margin: 0;
+    font-size: 3rem;
+    /* display:flex; */
+}
+
+#display{
+    background-color: green;
+    width:308px;
+    height:99px;
+    margin:0;
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+}
+.cbut{
+    display:inline-block;
+    vertical-align: bottom;
+}
+.input{
+    color:white;
+    background-color: green;
+}
+
+.operation{
+    background-color: greenyellow;
+}
+
+.line{
+    /* display:flex; */
+    margin: 0;
+}
